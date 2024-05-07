@@ -18,5 +18,7 @@ jobs:
 
     steps:
       - run: |
-            ansible-lint
+            ls -la
+            env
+            ps aux
 
