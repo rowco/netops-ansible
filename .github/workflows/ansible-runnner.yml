@@ -13,6 +13,8 @@ jobs:
 
     container:
         image: 'rowco/ansible-netops:latest'
+        volumes:
+            - ${{ github.workspace }}:/runner
 
     steps:
       - run: |
