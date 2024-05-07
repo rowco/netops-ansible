@@ -1,0 +1,20 @@
+
+
+name: 'Ansible Runner'
+ 
+on:
+  push:
+ 
+jobs:
+  run_ansible:
+
+    name: 'Runs Ansible Container'
+    runs-on: ubuntu-latest
+
+    container:
+        image: 'rowco/ansible-netops:latest'
+
+    steps:
+      - run: |
+            ansible-lint
+
