@@ -2,9 +2,12 @@ pynetbox==7.2.0
 python-slugify==8.0.1
 pyats==23.10
 genie==23.10
-#pan-os-python==1.11.0
-#pan-python==0.17.0
+pan-os-python==1.8.0
+pan-python==0.17.0
 pandas==1.1.5
 ciscoconfparse==1.9.41
 deepdiff==6.7.1
 pytz==2023.3.post1
+ansible-lint==6.22.2
+yamllint==1.35.1
+jsonschema==4.22.0
